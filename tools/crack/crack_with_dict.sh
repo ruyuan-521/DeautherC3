@@ -1,7 +1,7 @@
 #!/bin/bash
 # 使用定向字典破解
 # 用法: ./crack_with_dict.sh -b <BSSID> -e <ESSID> [handshake.pcap]
-# 示例: ./crack_with_dict.sh -b "24:69:8E:26:4A:96" -e "CMCC-Test" handshake.pcap
+# 示例: ./crack_with_dict.sh -b "aa:bb:cc:dd:ee:ff" -e "MyWiFi" handshake.pcap
 
 PCAP="handshake.pcap"
 BSSID=""
