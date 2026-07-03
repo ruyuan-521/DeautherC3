@@ -1,0 +1,71 @@
+# ESP32 固件编译产物
+*.bin
+*.elf
+*.hex
+*.map
+*.pio
+.pio/
+.pioenvs/
+.piolibdeps/
+build/
+dist/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+venv/
+env/
+pip_packages/
+requirements_local.txt
+
+# Node.js / 前端
+node_modules/
+*.log
+.npm/
+
+# 抓包 & 字典
+*.pcap
+*.cap
+*.hccapx
+*.hc22000
+*_dict.txt
+*passwords*.txt
+pattern*.txt
+START
+*.dump
+
+# 日志
+*.log
+*.stderr.*
+*.stdout.*
+*.txt
+!requirements.txt
+
+# 系统 / 编辑器
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 图片资源（测试用）
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+
+# 部署
+deploy/
+.packer/
+.cache/
+
+# 备份
+*.bak
+*.bak2
+*.orig
